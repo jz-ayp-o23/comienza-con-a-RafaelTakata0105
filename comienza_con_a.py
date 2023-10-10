@@ -7,12 +7,15 @@ Profesor: Jorge Adalberto Saldivar
 """
 
 # Declaraciones
+CONSTANTE = "A"
 # Entradas
 palabra = input("Escribe una palabra: ")
 # Proceso
-if palabra[0] == "A":
-    print = f"{palabra} comienza con 'A'"
+primer_letra = palabra[0]
+if primer_letra.upper() == CONSTANTE:
+    respuesta = ""
 else:
-    print = f"{palabra} no comienza con 'A'" 
-
+    respuesta = "no"
+# Salidas
+print(f"'{palabra}' {respuesta} comienza con 'A'")
 # Salidas
