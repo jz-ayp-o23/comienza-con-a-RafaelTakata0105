@@ -1,15 +1,19 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+Tarea: Parte fraccionaria
+Author: Rafael Takata García
+Fecha de entrega: 07/10/2023
+Grupo: ESI-232B-5
+Profesor: Jorge Adalberto Saldivar
 """
 
 # Declaraciones
-CONSTANTE = valor
-
+CONSTANTE = ["A", "Á"]
 # Entradas
-entrada = input()
-
+palabra = input("Escribe una palabra: ")
 # Proceso
-
-
+primer_letra = palabra[0]
+if primer_letra.upper() in CONSTANTE:
+    print(f"'{palabra}' comienza con 'A'")
+else:
+    print(f"'{palabra}' no comienza con 'A'")
 # Salidas
-print(salida)
