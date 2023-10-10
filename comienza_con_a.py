@@ -15,6 +15,5 @@ primer_letra = palabra[0]
 if primer_letra.upper() in CONSTANTE:
     print(f"'{palabra}' comienza con 'A'")
 else:
-    respuesta = "no"
+    print(f"'{palabra}' no comienza con 'A'")
 # Salidas
-print(f"'{palabra}' {respuesta} comienza con 'A'")
